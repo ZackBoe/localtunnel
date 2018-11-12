@@ -1,5 +1,7 @@
 # localtunnel
 
+This is a fork that includes [@tkambler](https://github.com/tkambler)'s [config & auth PR](https://github.com/localtunnel/localtunnel/pull/266) and uses `/tunnels/` as the root for all requests.
+
 [![Build Status](https://travis-ci.org/localtunnel/localtunnel.svg?branch=master)](https://travis-ci.org/localtunnel/localtunnel)
 
 localtunnel exposes your localhost to the world for easy testing and sharing! No need to mess with DNS or deploy just to have others test out your changes.

@@ -70,7 +70,7 @@ for (const opt of tunnels) {
             throw err;
         }
     
-        console.log('your url is: %s', tunnel.url);
+        console.log(`your url is: ${tunnel.url} (:${tunnel._opt.port})`);
     
         if (argv.open) {
             open_url.open(tunnel.url);
